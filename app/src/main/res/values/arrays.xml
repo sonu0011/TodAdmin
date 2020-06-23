@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="delivery_charges">
+        <item>@string/delivery_charges_fixed</item>
+        <item>@string/delivery_charges_bill</item>
+        <item>@string/delivery_charges_free</item>
+    </array>
+    <array name="orderTypes">
+        <item>@string/order_type_both</item>
+        <item>@string/order_type_delivery</item>
+        <item>@string/order_type_take_away</item>
+    </array>
+    <array name="print_size_array">
+        <item>@string/print_tsp_3_inch</item>
+        <item>@string/print_3_inch</item>
+        <item>@string/print_2_inch</item>
+    </array></resources>

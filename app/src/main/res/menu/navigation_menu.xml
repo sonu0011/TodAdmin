@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+
+        android:id="@+id/nav_pending"
+        android:title="@string/pending" />
+
+    <item
+        android:id="@+id/nav_in_kitchen"
+        android:title="@string/in_kitchen" />
+
+    <item
+        android:id="@+id/nav_pickup"
+        android:title="@string/pickup" />
+
+    <item
+        android:id="@+id/nav_completed"
+        android:title="@string/completed" />
+
+</menu>

@@ -1,0 +1,46 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10sp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RadioGroup
+        android:id="@+id/status_radioGroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/st_radioButton1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Pending"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/st_radioButton2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="In-Kitchen"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/st_radioButton3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Pickup"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/st_radioButton4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Completed"
+            android:textSize="18sp" />
+
+    </RadioGroup>
+
+
+
+</RelativeLayout>
